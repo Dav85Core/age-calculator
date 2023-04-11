@@ -1,0 +1,81 @@
+.header {
+  position: relative;
+  width: 60%;
+  padding-inline: 2em;
+  padding-top: 2em;
+  display: flex;
+}
+.form {
+  position: relative;
+  display: flex;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 70%;
+  height: 3rem;
+}
+.label {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.button-group {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  width: 90%;
+}
+.btn {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #854dff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: black;
+}
+.button-group::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 1px;
+  background-color: #d9d9d9;
+  left: 30px;
+  top: 50%;
+}
+.input {
+  border: 0.5px solid #716f6f;
+  border-radius: 10px;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+.input:hover {
+  border: 0.5px solid #854dff;
+}
+.label {
+  color: #716f6f;
+}
+.btn-svg {
+  width: 44px;
+  height: 44px;
+}
+.input::placeholder {
+  font-size: 1.7rem;
+  text-indent: 10px;
+}
+.error {
+  color: red;
+}

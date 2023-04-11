@@ -1,0 +1,23 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.result {
+  display: flex;
+  width: 100%;
+}
+.result-number {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 4rem;
+  color: #854dff;
+  margin-right: 8px;
+}
+.result-date {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 4rem;
+  color: #000000;
+}

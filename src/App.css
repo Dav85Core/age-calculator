@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .App {
+    max-width: 840px;
+    width: 100%;
+    max-height: 651px;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 150px;
+  }
+}
